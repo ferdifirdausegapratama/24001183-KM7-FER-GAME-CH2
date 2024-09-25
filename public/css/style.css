@@ -1,0 +1,237 @@
+/*Setting the Overall Font*/
+body {
+  font-family: Helvetica; 
+}
+
+/*Setting the Background Color*/
+.navbar {
+  background-color: #f1f3ff; 
+}
+
+/*Setting the Background Color*/
+#home {
+  background-color: #f1f3ff; 
+}
+
+/*Setting buttons with the class btn btn-success*/
+.btn.btn-success {
+  background-color: #5cb85f; 
+  border-radius: 0;
+}
+
+/*Setting buttons with the class 'btn-primary*/
+.btn-primary {
+  background-color: #5cb85f; 
+  border-radius: 0;
+}
+
+/*Setting vertical padding for 'description*/
+#description {
+  padding-top: 16px; 
+  padding-bottom: 16px; 
+}
+
+/*Increasing the spacing between list items*/
+#our_service_section ul li {
+  margin-bottom: 10px;
+}
+
+/*Setting the width of the offcanvas*/
+.offcanvas.offcanvas-end {
+  width: 250px; 
+}
+
+/*To make it more responsive, adjust for smaller screens*/
+@media (max-width: 768px) {
+  .offcanvas.offcanvas-end {
+    width: 50%; 
+  }
+}
+
+/*Add margin to the bottom of the image on smaller screens*/
+@media (max-width: 768px) {
+  #our_service_section .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+
+/*Setting styles for elements with the class 'car_rental*/
+.car_rental {
+  padding: 70px; 
+  background-color: #0d28a6; 
+  color: white; 
+  border-radius: 13px; 
+  margin-top: 20px; 
+  /*Using Flexbox */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+/*Section FAQ*/
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*Adding top and bottom padding to an element*/
+.faq .desc {
+  padding-top: 16px; 
+  padding-bottom: 24px; 
+}
+
+/*Adding transition effects for open/close*/
+.accordion .accordion-collapse {
+  transition: max-height 0.2s ease-out; 
+}
+
+/*Setting the layout of icons*/
+.sosmed .icon-container {
+  display: flex; 
+  gap: 16px; 
+}
+
+/*Setting the appearance of links*/
+.nav-link {
+  text-decoration: none; 
+  color: black; 
+  display: block; 
+}
+
+/*Setting the background*/
+#testimonial_section {
+  background-color: white;
+}
+
+/*Setting the appearance of .carousel-inner within #testimonial_section*/
+.carousel-inner {
+  background-color: #f1f3ff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*Adding a soft shadow around the carousel*/
+}
+
+/* Search */
+.search-car {
+  margin-top: -50px;
+}
+
+.search-card {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.search-time .form-select {
+  background-image: url("../images/fi_clock.png");
+  background-size: 20px auto;
+}
+
+.form-select:hover {
+  border: 1px solid #5cb85f;
+  border-radius: 2px;
+}
+
+.form-select option:hover,
+.form-select option:checked {
+  background: #c9e7ca;
+  color: #5cb85f;
+}
+
+/* Cars List */
+
+.cars {
+  margin-top: 30px;
+}
+
+.cars .card {
+  width: 340px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.cars .card .card-img-top {
+  width: 320px;
+  height: 180px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cars .card .cars__p {
+  font-size: 14px;
+  line-height: 20px;
+  height: 100px;
+}
+
+@media (max-width: 1199px) {
+  .sewa {
+    margin-top: 100px;
+  }
+  .sewa .container {
+    background-color: #0d28a6;
+    border-radius: 10px;
+  }
+  .sewa .container p {
+    line-height: 20px;
+    padding: 0 200px;
+    font-size: 14px;
+  }
+  .cars .card {
+    width: 280px;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  }
+  .cars .card .card-img-top {
+    width: 260px;
+  }
+}
+
+@media (max-width: 992px) {
+  .owl-carousel .owl-stage-outer .owl-item img {
+    width: 80px !important;
+  }
+  .owl-carousel .owl-stage-outer .owl-item .card {
+    max-width: 350px;
+  }
+  .owl-carousel .owl-stage-outer .owl-item .card .card-body img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .sewa .container h1 {
+    padding: 0 70px;
+  }
+  .sewa .container p {
+    padding: 0 80px;
+    font-size: 15px;
+  }
+  .faq .title-faq {
+    text-align: center;
+  }
+  .faq .title-faq h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .faq .title-faq p {
+    margin: 30px 0;
+  }
+  .cars {
+    margin-top: 30px;
+  }
+  .cars .card {
+    width: 500px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+  }
+  .cars .card .card-img-top {
+    width: 480px;
+    height: 250px;
+  }
+  .cars .card .cars__p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 50px;
+  }
+}
