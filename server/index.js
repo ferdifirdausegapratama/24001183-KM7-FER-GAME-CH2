@@ -1,9 +1,7 @@
-//core
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-//third party
 const url = require("url");
 
 const PUBLIC_DIRECTORY = path.join(__dirname, "../public");
