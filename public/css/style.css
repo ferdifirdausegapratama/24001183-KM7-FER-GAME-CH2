@@ -235,3 +235,14 @@ body {
     height: 50px;
   }
 }
+.btn-utama {
+  background-color: #5cb85f;
+  color: #ffff;
+  border-radius: 5px;
+}
+
+.btn-utama:hover {
+  color: #5cb85f;
+  background-color: #ffffff;
+  border: 1px solid #5cb85f;
+}
